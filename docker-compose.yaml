@@ -13,7 +13,7 @@ services:
      image: mohammadmunna1234/catalogue:v1
      container_name: catalogue
      depends_on:
-     - mongdb
+     - mongodb
   user:
     image: mohammadmunna1234/user:v1
     container_name: user
