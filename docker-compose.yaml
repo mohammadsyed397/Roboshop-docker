@@ -21,7 +21,7 @@ services:
     - mongodb
     - redis
   cart:
-    image: mohamamdmunna1234/cart:v1
+    image: mohammadmunna1234/cart:v1
     container_name: cart
     depends_on:
     - catalogue
