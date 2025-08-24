@@ -58,4 +58,15 @@ services:
       - cart
       - rabbitmq
       - user
-      
+  frontend:
+    image: mohammadmunna1234/frontend:v1
+    container_name: frontend
+    ports:
+      - "80:80" 
+    depends_on:
+     - cart
+     - catalogue
+     - user
+     - shipping
+     - payment
+     
