@@ -4,7 +4,7 @@ networks:
    name: roboshop
 services:
   mongodb:
-    image: mohammadmunna1234/mongdb:v1
+    image: mohammadmunna1234/mongodb:v1
     container_name: mongodb
   redis:
      image: redis:7.0
