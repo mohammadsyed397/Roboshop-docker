@@ -56,7 +56,7 @@ services:
       RABBITMQ_DEFAULT_USER: roboshop
       RABBITMQ_DEFAULT_PASS: roboshop123
     volumes:
-      - rabbitmq:var/lib/rabbitmq
+    - rabbitmq:/var/lib/rabbitmq
   payment:
     image: mohammadmunna1234/payment:v1
     container_name: payment
