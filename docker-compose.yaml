@@ -42,7 +42,7 @@ services:
     image: mohammadmunna1234/mysql:v1
     container_name: mysql
     volumes:
-      - mysql:var/lib/mysql
+    - mysql:/var/lib/mysql
   shipping:
      image: mohammadmunna1234/shipping:v1
      container_name: shipping
