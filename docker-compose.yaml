@@ -39,7 +39,7 @@ services:
     - catalogue
     - redis
   mysql:
-    image: mohammadmunna1234/mysql:v1
+    image: joindevops/mysql:v1
     container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
