@@ -39,12 +39,12 @@ services:
     - catalogue
     - redis
   mysql:
-    image: joindevops/mysql:v1
+    image: mohammadmunna1234/mysql:v1
     container_name: mysql
     volumes:
     - mysql:/var/lib/mysql
   shipping:
-     image: joindevops/shipping:v1
+     image: mohammadmunna1234/shipping:v1
      container_name: shipping
      depends_on:
       - cart
